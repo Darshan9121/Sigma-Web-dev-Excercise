@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: rgb(226,227,231);
+
+        }
+        .card{
+            width: 20vw;
+            height: fit-content;
+            padding: 15px;
+            background-color: #fdfdfd;
+            border: 3px solid #bdbfc1;
+            border-radius: 20px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+            /* float: left; */
+            margin:calc(100%/10) auto;
+        }   
+        header{
+            width: inherit;
+            min-height: calc(100%-40%);
+            display: block;
+           
+        } 
+        header img{
+            width: inherit;
+            height: 100%;
+            border: none;
+            border-radius: 5%;
+
+
+        }
+
+        header ul{
+            list-style-type: none;
+            margin: 5px 10px;
+            display: inline-block;
+            
+            
+        }
+        header ul li{
+            float: left;
+            padding: 3px 10px;
+            text-align: center;
+            margin: 0px 5px;
+            border: 1px solid #bdbfc1;
+            color: #9a9b9e;
+            border-radius: 30px;
+        }
+        main>p{
+    color: #9a9b9e;
+    font-size: medium;
+
+}
+
+main button{
+    padding: 5px 10px;
+    background-color:#c7d4e2 ;
+    color: #5680b4;
+    font-weight: bolder;
+    margin: 20px calc(100%/3);
+    border: none;
+    border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="card">
+        <header>
+            <img src="p1.jpg" alt="img">
+            <ul>
+                <li>Nature</li>
+                <li>Lake</li>
+            </ul>
+        </header>
+        <main>
+            <h1>Lago di Braies</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quidem quos omnis ea iusto laborum obcaecati</p>
+            <button>Read More</button>
+        </main>
+
+    </div>
+    <!-- <div class="card">
+        <header>
+            <img src="p1.jpg" alt="img">
+            <ul>
+                <li>Nature</li>
+                <li>Lake</li>
+            </ul>
+        </header>
+        <main>
+            <h1>Lago di Braies</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quidem quos omnis ea iusto laborum obcaecati</p>
+            <button>Read More</button>
+        </main>
+
+    </div> -->
+</body>
+</html>
